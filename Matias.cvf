@@ -1,1 +1,11 @@
-
+BEGIN:VCARD
+VERSION:3.0
+FN:Matías Neira Encina
+N:Neira Encina;Matías;;
+ORG:Kubi Lockers
+TITLE:Tech Junior Account Executive
+TEL;TYPE=CELL,VOICE:+56942539691
+EMAIL;TYPE=INTERNET,WORK:matias.neira@kubilockers.com
+URL;TYPE=WORK:https://www.kubilockers.com.cl
+URL;TYPE=HOME:https://www.linkedin.com/in/matias-neira-encina/
+END:VCARD
