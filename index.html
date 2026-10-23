@@ -37,7 +37,7 @@
             justify-content: space-between;
         }
         
-      /* Barra Tricolor Corporativa de Kubi Lockers */
+        /* Barra Tricolor Corporativa de Kubi Lockers */
         .top-bar { display: flex; height: 4px; width: 100%; margin: 8px 0 10px 0; border-radius: 3px; overflow: hidden; flex-shrink: 0; }
         .bar-1 { background-color: #1E293B; flex: 1; } /* Azul Marino Antracita */
         .bar-2 { background-color: #00A86B; flex: 1; } /* Verde Esmeralda / Módulos */
@@ -45,8 +45,8 @@
         
         .card-header { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 14px; padding: 12px 14px; position: relative; margin-bottom: 8px; }
         
-        .logo-wrapper { display: flex; justify-content: flex-end; margin-bottom: 6px; }
-        .logo-img { max-width: 110px; height: auto; display: block; object-fit: contain; }
+        .logo-wrapper { display: flex; justify-content: flex-end; margin-bottom: 4px; }
+        .logo-img { max-width: 100px; max-height: 40px; width: auto; height: auto; display: block; object-fit: contain; }
         
         h1 { font-size: 1.2rem; color: #0f172a; font-weight: 700; margin-bottom: 2px; }
         .subtitle { font-size: 0.82rem; color: #334155; font-weight: 600; line-height: 1.2; margin-bottom: 4px; }
@@ -71,6 +71,7 @@
 </head>
 <body>
     <div class="container">
+        <!-- Barra Tricolor Corporativa de Kubi Lockers -->
         <div class="top-bar">
             <div class="bar-1"></div>
             <div class="bar-2"></div>
@@ -84,31 +85,33 @@
 
             <h1>Matías Neira Encina</h1>
             <div class="subtitle">Tech Junior Account Executive</div>
-            <div class="description">Estudiante Ingeniera Civil Industrial | U. Chile</div>
+            <div class="description">Estudiante Ingeniería Civil Industrial | U. de Chile</div>
             
             <div class="contact-info">
-                <a href="tel:+56966698926"><span class="contact-icon">📞</span> +56 9 4253 9691</a>
+                <a href="tel:+56942539691"><span class="contact-icon">📞</span> +56 9 4253 9691</a>
                 <a href="mailto:matias.neira@kubilockers.com"><span class="contact-icon">✉️</span> matias.neira@kubilockers.com</a>
                 <a href="https://www.kubilockers.com" target="_blank"><span class="contact-icon">🌐</span> www.kubilockers.com</a>
             </div>
         </div>
 
-        <a href="javiera.vcf" download="Javiera_Neira.vcf" class="btn btn-main">📇 Guardar en Contactos</a>
-        <a href="https://wa.me/56966698926" target="_blank" class="btn btn-whatsapp">💬 Mensaje por WhatsApp</a>
+        <!-- Botón para descargar contacto en formato VCard -->
+        <a href="data:text/vcard;charset=utf-8,BEGIN%3AVCARD%0AVERSION%3A3.0%0AN%3ANeira%20Encina%3BMat%C3%ADas%3B%3B%3B%0AFN%3AMat%C3%ADas%20Neira%20Encina%0ATITLE%3ATech%20Junior%20Account%20Executive%0AORG%3AKubi%20Lockers%0ATEL%3BTYPE%3DCELL%3A%2B56942539691%0AEMAIL%3Amatias.neira%40kubilockers.com%0AURL%3Ahttps%3A%2F%2Fwww.kubilockers.com%0AEND%3AVCARD" download="Matias_Neira.vcf" class="btn btn-main">📇 Guardar en Contactos</a>
+        
+        <a href="https://wa.me/56942539691?text=Hola%20Mat%C3%ADas%2C%20he%20recibido%20tu%20tarjeta%20digital." target="_blank" class="btn btn-whatsapp">💬 Mensaje por WhatsApp</a>
 
         <div class="grid-btns">
             <a href="mailto:matias.neira@kubilockers.com" class="btn btn-secondary">✉️ Correo</a>
             <a href="https://www.kubilockers.com" target="_blank" class="btn btn-secondary">🌐 Sitio Web</a>
-           <a href="https://www.linkedin.com/in/matias-neira-encina/" target="_blank" class="btn btn-secondary">🔗 LinkedIn</a>
-            <a href="tel:+56966698926" class="btn btn-secondary">📞 Llamar</a>
+            <a href="https://www.linkedin.com/in/matias-neira-encina/" target="_blank" class="btn btn-secondary">🔗 LinkedIn</a>
+            <a href="tel:+56942539691" class="btn btn-secondary">📞 Llamar</a>
         </div>
 
         <div class="qr-section">
             <div class="qr-title">ESCANEAR PARA COMPARTIR</div>
             <div class="qr-box">
-                <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://tarjetas-de-presentacion.github.io/Javiera-Neira/" alt="Código QR Javiera Neira">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://www.kubilockers.com" alt="Código QR Matías Neira">
             </div>
-            <div class="footer-text">© Contacto Matías Neira</div>
+            <div class="footer-text">© kubilockers.com</div>
         </div>
     </div>
 </body>
