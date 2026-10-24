@@ -37,11 +37,11 @@
             justify-content: space-between;
         }
         
-        /* Barra superior distintiva */
+        /* Barra superior distintiva de Kubi */
         .top-bar { display: flex; height: 4px; width: 100%; margin: 8px 0 10px 0; border-radius: 3px; overflow: hidden; flex-shrink: 0; }
-        .bar-1 { background-color: #004D40; flex: 1; } /* Verde Kubi / Oscuro */
-        .bar-2 { background-color: #00BFA5; flex: 1; } /* Turquesa Kubi */
-        .bar-3 { background-color: #1e293b; flex: 1; } /* Gris Grafito */
+        .bar-1 { background-color: #004D40; flex: 1; }
+        .bar-2 { background-color: #00BFA5; flex: 1; }
+        .bar-3 { background-color: #1e293b; flex: 1; }
         
         .card-header { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 14px; padding: 12px 14px; position: relative; margin-bottom: 8px; }
         
@@ -79,8 +79,8 @@
 
         <div class="card-header">
             <div class="logo-wrapper">
-                <!-- Asegúrate de tener tu archivo de logo de Kubi en la misma carpeta -->
-                <img src="Logo Kubi.png" alt="Kubi Lockers" class="logo-img">
+                <!-- Se utiliza la imagen subida en el repositorio de GitHub -->
+                <img src="kubi_lockers_fondo_claro_sin_eslogan.png" alt="Kubi Lockers" class="logo-img">
             </div>
 
             <h1>Matías Neira Encina</h1>
@@ -94,7 +94,7 @@
             </div>
         </div>
 
-        <a href="matias.vcf" download="Matias_Neira.vcf" class="btn btn-main">📇 Guardar en Contactos</a>
+        <a href="Matias.vcf" download="Matias_Neira.vcf" class="btn btn-main">📇 Guardar en Contactos</a>
         <a href="https://wa.me/56942539691" target="_blank" class="btn btn-whatsapp">💬 Mensaje por WhatsApp</a>
 
         <div class="grid-btns">
@@ -107,7 +107,6 @@
         <div class="qr-section">
             <div class="qr-title">ESCANEAR PARA COMPARTIR</div>
             <div class="qr-box">
-                <!-- El script inferior alimenta este QR automáticamente con la URL real -->
                 <img id="qr-img" src="" alt="Código QR Matías Neira">
             </div>
             <div class="footer-text">© Contacto Matías Neira Encina</div>
@@ -115,7 +114,7 @@
     </div>
 
     <script>
-        // Generación dinámica y a prueba de errores de URL para el código QR
+        // Carga dinámica del código QR tomando la URL activa en el navegador
         (function() {
             var currentUrl = window.location.href;
             var qrImg = document.getElementById('qr-img');
